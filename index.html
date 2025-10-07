@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Spot Garage</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container split">
+            <a href="#home">
+                <img src="images/logo.png" alt="Logo" class="logo">
+            </a>
+            <nav id="nav" class="nav">
+                <ul class="nav-list row">
+                    <li class="nav-link"><a href="#home">Home</a></li>
+                    <li class="nav-link"><a href="#about">About</a></li>
+                    <li class="nav-link"><a href="#menu">Menu</a></li>
+                    <li class="nav-link"><a href="#reviews">Reviews</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-icons">
+                <i id="open-btn" class="fa-solid fa-bars"></i>
+            </div>
+            </div>
+    </header>
+
+    <div id="home" class="home split">
+        <div class="container">
+            <div class="main-text">
+                <h1>Are you looking for the right Spot?</h1>
+                <p>Spot garage is where retro vibes meet great coffee and good company. Step into a cozy space filled with vintage charm, perfect for catching up with friends or savoring a solo coffee break. Nostalgia never tasted so good!</p>
+                    <button class="btn">Get Yours Now</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="section about" id="about">
+        <div class="container">
+            <h1 class="text-center sect-head">
+                <span>About</span> us
+            </h1>
+            <div class="row">
+                <img src="images/spott.jpg"about-img class="about-img col-50">
+                <div class="about-content col-48">
+                    <h2>What Makes Our Coffee Special?</h2>
+                    <p>At Spot Garage, we bring you more than just coffee—we serve nostalgia in every cup. Inspired by classic vibes and retro charm, we blend quality brews with a timeless atmosphere. Every sip is a throwback, every visit feels like home, and every moment is one to remember. Tara, tambay na!</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="section menu" id="menu">
+        <div class="container">
+            <h1 class="text-center sect-head">
+                our <span>menu</span>
+            </h1>
+            <div class="grid cards">
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <img src="images/kopi1.png" alt="Varoom Classic" class="card-img">
+                    </div>
+                    <div class="menu-content">
+                    <h4>Varoom Classic</h4>
+                        <div class="price">₱50</div>
+                        <p class="menu-description">Our signature blend, perfectly balanced and full-bodied.</p>
+                        <div class="quantity-controls">
+                            <button class="qty-btn minus"><i class="fas fa-minus"></i></button>
+                            <input type="number" class="qty-input" value="1" min="1" max="99">
+                            <button class="qty-btn plus"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <button class="add-to-cart-btn" data-price="50">
+                            <span class="btn-text">Add to Order</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <img src="images/kopi2.png" alt="Spanish Latte" class="card-img">
+                    </div>
+                    <div class="menu-content">
+                    <h4>Spanish Latte</h4>
+                        <div class="price">₱69</div>
+                        <p class="menu-description">Rich espresso with condensed milk and steamed milk.</p>
+                        <div class="quantity-controls">
+                            <button class="qty-btn minus"><i class="fas fa-minus"></i></button>
+                            <input type="number" class="qty-input" value="1" min="1" max="99">
+                            <button class="qty-btn plus"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <button class="add-to-cart-btn" data-price="69">
+                            <span class="btn-text">Add to Order</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <img src="images/kopi3.png" alt="Vanilla Latte" class="card-img">
+                    </div>
+                    <div class="menu-content">
+                    <h4>Vanilla Latte</h4>
+                        <div class="price">₱69</div>
+                        <p class="menu-description">Smooth espresso with vanilla syrup and steamed milk.</p>
+                        <div class="quantity-controls">
+                            <button class="qty-btn minus"><i class="fas fa-minus"></i></button>
+                            <input type="number" class="qty-input" value="1" min="1" max="99">
+                            <button class="qty-btn plus"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <button class="add-to-cart-btn" data-price="69">
+                            <span class="btn-text">Add to Order</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <img src="images/kopi4.png" alt="Salted Caramel" class="card-img">
+                    </div>
+                    <div class="menu-content">
+                    <h4>Salted Caramel</h4>
+                        <div class="price">₱69</div>
+                        <p class="menu-description">Perfect blend of caramel, sea salt, and coffee.</p>
+                        <div class="quantity-controls">
+                            <button class="qty-btn minus"><i class="fas fa-minus"></i></button>
+                            <input type="number" class="qty-input" value="1" min="1" max="99">
+                            <button class="qty-btn plus"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <button class="add-to-cart-btn" data-price="69">
+                            <span class="btn-text">Add to Order</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <img src="images/kopi5.png" alt="Iced Mocha" class="card-img">
+                    </div>
+                    <div class="menu-content">
+                    <h4>Iced Mocha</h4>
+                        <div class="price">₱69</div>
+                        <p class="menu-description">Chilled espresso with chocolate and cold milk.</p>
+                        <div class="quantity-controls">
+                            <button class="qty-btn minus"><i class="fas fa-minus"></i></button>
+                            <input type="number" class="qty-input" value="1" min="1" max="99">
+                            <button class="qty-btn plus"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <button class="add-to-cart-btn" data-price="69">
+                            <span class="btn-text">Add to Order</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="menu-img">
+                        <img src="images/kopi6.png" alt="Caramel Macchiato" class="card-img">
+                    </div>
+                    <div class="menu-content">
+                    <h4>Caramel Macchiato</h4>
+                        <div class="price">₱69</div>
+                        <p class="menu-description">Espresso marked with foamed milk and caramel drizzle.</p>
+                        <div class="quantity-controls">
+                            <button class="qty-btn minus"><i class="fas fa-minus"></i></button>
+                            <input type="number" class="qty-input" value="1" min="1" max="99">
+                            <button class="qty-btn plus"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <button class="add-to-cart-btn" data-price="69">
+                            <span class="btn-text">Add to Order</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section summary" id="summary">
+    <div class="container">
+            <h1 class="text-center sect-head">
+                Purchase <span>Summary</span>
+            </h1>
+        <div class="summary-container">
+                <p class="total-text">Total: <span id="total">₱0.00</span></p>
+                <div class="summary-input">
+                <label for="discount">Discount:</label>
+                <input type="number" id="discount" value="0">
+            </div>
+                <div class="summary-input">
+                <label for="payment">Payment:</label>
+                <input type="number" id="payment" value="0">
+                </div>
+                <p class="change-text">Change: <span id="change">₱0.00</span></p>
+                <button onclick="calculate()" class="btn">Calculate Total</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section class="section reviews" id="reviews">
+        <div class="container">
+            <h1 class="text-center sect-head">
+                Customer <span>Reviews</span>
+            </h1>
+            <div class="reviews-container">
+                <div class="review-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"The ambiance is perfect! Love the retro vibes and the coffee is absolutely amazing. My new favorite spot!"</p>
+                    <h4 class="reviewer-name">Sarah Johnson</h4>
+                </div>
+
+                <div class="review-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="review-text">"Great place to work remotely. The staff is friendly and the coffee keeps me going all day!"</p>
+                    <h4 class="reviewer-name">Mike Chen</h4>
+                </div>
+
+                <div class="review-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"The vintage atmosphere and quality coffee make this place special. It's my go-to spot for catching up with friends!"</p>
+                    <h4 class="reviewer-name">Emily Rodriguez</h4>
+                </div>
+            </div>
+
+            <!-- Add Review Form -->
+            <div class="review-form-container">
+                <h2 class="form-title">Share Your Experience</h2>
+                <form id="reviewForm" class="review-form">
+                    <div class="form-group">
+                        <input type="text" id="reviewName" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="rating" required>
+                            <option value="5">5 Stars</option>
+                            <option value="4">4 Stars</option>
+                            <option value="3">3 Stars</option>
+                            <option value="2">2 Stars</option>
+                            <option value="1">1 Star</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="reviewText" placeholder="Write your review here..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit Review</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="social-stickers">
+            <ul class="stickers">
+                <li>
+                    <a href="https://www.facebook.com/SpotGarage2023"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.tiktok.com/@spotgarage_"><i class="fa-brands fa-tiktok"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/spotgarage_"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-bottom">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+        </div>
+        <div class="author">
+            <p>
+                Created By <a href="#">Spot Garage</a> | All Rights Reserved by Spot Garage 2023
+            </p>
+        </div>
+    </div>
+</footer>
+
+    <script src="page.js"></script>
+</body>
+
+</html>
